@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99vh;
+}
+
+form {
+    width: max(400px, 50%);
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+form h2 {
+    margin-bottom: 1rem;
+}
+
+form > div {
+    margin-bottom: 1rem;
+}
+
+.label-container {
+    margin-bottom: 0.25rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 1rem;
+}
+
+hr {
+    border: 1px solid rgb(156, 156, 156);
+    margin: 2rem 0rem;
+}
+
+p {
+    margin-top: 0.25rem;
+    color: red;
+}
+
+.invalid {
+    outline: 2px solid red;
+    border: transparent;
+}
+
+.valid {
+    outline: 2px solid rgb(0, 255, 0);
+    border: transparent;
+}

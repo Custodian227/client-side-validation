@@ -1,0 +1,1 @@
+A client side validation exercise with JavaScript.
